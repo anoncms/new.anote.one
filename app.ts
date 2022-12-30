@@ -1710,7 +1710,7 @@ class Wallet {
 
 const AHRK = "Gvs59WEEXVAQiRZwisUosG7fVNr8vnzS8mjkgqotrERT";
 const AEUR = "Az4MsPQZn9RJm8adcya5RuztQ49rMGUW99Ebj56triWr";
-const AINT = "4PVEMfdqhwzpLAQjqgQ1Sys9agqBxtP8QEnAthSrLPfF";
+const AINT = "7paojf37ipks5Ac4rHMwtLHHe9YU6w8FBfafwoTEmmf9";
 const AINTWAVES = "BvuzJNB6qUrvEmzGt1PMBZ1QCnBNn2L7ezXHhgQKMxr7";
 const ANOTE = "";
 
