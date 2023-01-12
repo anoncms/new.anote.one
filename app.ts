@@ -175,7 +175,7 @@ class Wallet {
 
     checkMineWarning() {
         if (!this.openMine) {
-            $("#mineInfo").show();
+            // $("#mineInfo").show();
         }
     }
 
@@ -1722,7 +1722,7 @@ const AINTADDRESS = "3PBmmxKhFcDhb8PrDdCdvw2iGMPnp7VuwPy"
 var activeScreen = "home";
 var earningsScript = "https://aint.kriptokuna.com";
 // var mobileNodeUrl = "http://localhost:5001";
-var mobileNodeUrl = "https://mobileold.anote.digital";
+var mobileNodeUrl = "https://mobile.anote.digital";
 var t;
 
 const wallet = new Wallet();
@@ -1763,7 +1763,7 @@ $("#addressBook").on("click", function () {
     Cookies.set("openMine", "true", { expires: 365 * 24 * 10 });
     $("#screen-home").fadeOut(function () {
         $("#screen-addressBook").fadeIn();
-        $("#mineInfo").hide();
+        // $("#mineInfo").hide();
     });
 });
 
